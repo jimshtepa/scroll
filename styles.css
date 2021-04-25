@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.scroll-box {
+  display: grid;
+  grid: 1fr / auto-flow 100%;
+  gap: 1ch;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior: contain;
+}
+
+.scroll-item {
+  padding: 5rem 0;
+  background-color: bisque;
+}
